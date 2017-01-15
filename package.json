@@ -6,7 +6,7 @@
     "node": ">=7.0.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --port 8000",
+    "start": "webpack-dev-server --port 8000 --env.debug",
     "build": "webpack"
   },
   "devDependencies": {
